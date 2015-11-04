@@ -120,7 +120,7 @@ Make a file structure
 
 #EXECUTE THESE COMMANDS:    
 $ pwd                                   # Check you are in <yourversion> which is probably /netscr/<youronyen>
-$ cp -r /netscr/erinosb/HTSF_RNASeq_Demo/02_DESeq2Demo .
+$ cp -r /netscr/tristand/HTSF_RNASeq_Demo/02_DESeq2Demo .
 $ ls
 ```
 
@@ -197,7 +197,7 @@ $ bsub -q week -n 1 -o %J_deseq.log "R --vanilla < deseq2_demo_EON_150725.R"
 For this to work, you will need to change one line of code...
 
 ```R
-#homedir="/netscr/erinosb/HTSF_RNASeq_Demo/02_DESeq2Demo" ##  CHANGE this PATH TO YOUR CURRENT WORKING DIRECTORY ($ pwd)
+#homedir="/netscr/tristand/HTSF_RNASeq_Demo/02_DESeq2Demo" ##  CHANGE this PATH TO YOUR CURRENT WORKING DIRECTORY ($ pwd)
 ```
 
 You'll need to remove the # sign so this line will execute
